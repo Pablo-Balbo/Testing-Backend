@@ -1,0 +1,29 @@
+Stored Procedure structure on SQL Management Studio:
+
+CREATE PROCEDURE procedure_name()
+AS
+BEGIN
+	sentences
+	sentences
+	sentences
+END
+GO
+
+EXEC procedure_name()
+
+---------------------------------------------------------------
+
+Descargar tSQLt:
+https://tsqlt.org/downloads/
+
+---------------------------------------------------------------
+
+- Extraer
+- Ejecutar "PrepareServer.sql"
+- Ejecutar "Example.sql"
+- Ejecutar "Use tSQLt_Example" para posicionarnos en dicha DB
+- Ejecutar "EXEC tSQLt.RunAll" para correr toda la suite de test
+- Ejecutar "EXEC tSQLt.procedure_name" para correr un test en especial
+
+---------------------------------------------------------------
+
